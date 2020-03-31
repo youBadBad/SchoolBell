@@ -10,6 +10,6 @@ need a regular work and study !
 
 #### Run
 
-> pip install requirement.txt
+> pip install requirement.txt  
 > python bing.py
 
