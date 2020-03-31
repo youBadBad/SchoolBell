@@ -2,7 +2,9 @@ import time
 from playsound import playsound
 
 
-ONCLASSTIME = [8.00,8.50,9.50,10.40,13.20,14.10,15.00,15.50,16.40,]
+ONCLASSTIME = [8.00,8.50,9.50,10.40,
+               13.20,14.10,15.00,15.50,16.40,
+               18.30,19.30,20.30,21.30,22.30]
 
 class mt():# my time 
     def __init__(self,input:float):
@@ -39,10 +41,12 @@ def mainLoop():
         
         for i,j in a:
             if i.justis(t.tm_hour,t.tm_min):
+                print(i.toString(),'on class~')
                 playsound('BUAAonClass.mp3')
                 time.sleep(60)
                 break
             if j.justis(t.tm_hour,t.tm_min):
+                print(j.toString(),'off class~')
                 playsound('BUAAoffClass.mp3')
                 time.sleep(60)
                 break
