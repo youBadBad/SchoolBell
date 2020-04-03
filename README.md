@@ -15,3 +15,6 @@ run this py backstage now 0w0
 > pip install requirement.txt  
 > python bing.py
 
+
+after all requirements are installed , on win OS  
+can just run bing.bat by double click (owo)  
